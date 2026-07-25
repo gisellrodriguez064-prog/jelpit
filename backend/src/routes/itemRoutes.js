@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getItems, getItem, createItem, updateItem, deleteItem } = require('../controllers/itemController');
+const { getItems, getItem, createItem, updateItem, deleteItem } = require('../controllers/ItemController');
 
 router.route('/')
   .get(getItems)
