@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api/items';
+const API_URL = 'https://jelpit-po81.onrender.com/api/items';
 
 export const fetchItems = () => fetch(API_URL).then(r => r.json());
 
